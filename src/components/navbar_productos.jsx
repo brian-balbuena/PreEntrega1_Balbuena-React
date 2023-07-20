@@ -5,10 +5,13 @@ import MenuItem from '@mui/material/MenuItem';
 import { NavLink } from 'react-router-dom';
 import './style_navMenu.css';
 import product from "../database/data.json";
+import useData from '../database/useData';
+import { CircularProgress } from '@mui/material';
 
 
 
 const BasicMenu = () => {
+    const { data, loading } = useData(product);
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
     const handleClick = (event) => {
@@ -18,6 +21,7 @@ const BasicMenu = () => {
         setAnchorEl(null);
     };
 
+    if (loading) return (<div style={{ marginTop: "100px", display: "flex", justifyContent: "center" }}> <CircularProgress color="success" thickness={5.5} /> </div>);
     let menuFamily = [];
     return (
         <div>
@@ -43,7 +47,7 @@ const BasicMenu = () => {
             >
                 {
                     // uso un .map() y un condicional para crear un enlace por cada family que se encuentra 
-                    product.map((element, index) => {
+                    data.map((element, index) => {
 
                         if (!menuFamily[element.family]) {
                             menuFamily[element.family] = true;
