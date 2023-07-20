@@ -5,25 +5,25 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import { Link } from 'react-router-dom';
+import './style_navMenu.css';
 
 
-const CardRecomm = ({ element }) => {
-  
-  console.log(element);
+const ProductCard = ({product}) => {
+
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card className='nav-menu' sx={{ width: "300px"}} raised= "true" style={{margin: "15px"}} component={Link} to={`item/${product.ID}`}> 
       <CardMedia
-        sx={{ height: 140 }}
-        image="/static/images/cards/contemplative-reptile.jpg"
-        title="green iguana"
+      component="img"
+        sx={{ height: "200px", width: "100%" }}
+        image= {product.img}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          {element.nombre}
+          {product.nombre}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          ${product.precio}
         </Typography>
       </CardContent>
       <CardActions>
@@ -33,4 +33,4 @@ const CardRecomm = ({ element }) => {
     </Card>
   );
 }
-export default CardRecomm;
+export default ProductCard;

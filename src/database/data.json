@@ -1,0 +1,349 @@
+[
+    {
+        "ID": 1,
+        "family": "Suculentas",
+        "nombre": "cactus",
+        "vivienda": [
+            "Depto",
+            "Casa"
+        ],
+        "ubicacion": "Interior",
+        "proposito": "Deco",
+        "img": "https://www.ikea.com/mx/es/images/products/cactaceae-planta-en-maceta-cactus-especies-varias__0654020_pe708245_s5.jpg?f=xs",
+        "propiedades": "Los cactus son plantas suculentas adaptadas a climas áridos. Tienen tallos carnosos, espinas en lugar de hojas y flores llamativas. Son resistentes y fáciles de cuidar. Almacenando agua en sus tejidos, sobreviven en condiciones de sequía. Sus propiedades medicinales varían, desde aliviar quemaduras solares y picaduras de insectos hasta tratar problemas digestivos y cutáneos.",
+        "precio": 200
+    },
+    {
+        "ID": 2,
+        "family": "Suculentas",
+        "nombre": "pata de oso",
+        "vivienda": [
+            "Depto",
+            "Casa"
+        ],
+        "ubicacion": "Interior",
+        "proposito": "Deco",
+        "img": "https://i.pinimg.com/736x/7c/ae/cf/7caecf72a7b467cb56229b09badf4913.jpg",
+        "propiedades": "La suculenta Pata de Oso, también conocida como Cotyledon tomentosa, es una planta de aspecto único y atractivo. Sus hojas carnosas y peludas se asemejan a las patas de un oso, de ahí su nombre. Es fácil de cuidar y puede adaptarse a diferentes condiciones de luz y agua. Además de ser una planta ornamental popular, se ha utilizado en la medicina tradicional para tratar quemaduras, heridas y problemas respiratorios.",
+        "precio": 220
+    },
+    {
+        "ID": 3,
+        "family": "Suculentas",
+        "nombre": "lithops",
+        "vivienda": "Depto",
+        "ubicacion": "Interior",
+        "proposito": "Deco",
+        "img": "https://plantaymaceta.es/wp-content/uploads/2020/05/LITHOPS_02.jpg",
+        "propiedades": "Descubre los fascinantes Lithops, plantas suculentas conocidas como 'piedras vivas'. Su increíble capacidad de mimetismo y sus formas únicas te sorprenderán. Adéntrate en el mundo de estas joyas botánicas y descubre cómo cuidarlas en tu propio hogar. ¡Embárcate en una aventura verde con Lithops!",
+        "precio": 210
+    },
+    {
+        "ID": 4,
+        "family": "Suculentas",
+        "nombre": "aloe vera",
+        "vivienda": [
+            "Depto",
+            "Casa"
+        ],
+        "ubicacion": "Interior",
+        "proposito": "Deco",
+        "img": "https://www.lanzaloe.com/media/magefan_blog/aloeavera_macetas_1.jpg",
+        "propiedades": "Descubre el extraordinario poder del Aloe Vera. Esta planta milagrosa es conocida por sus increíbles propiedades y beneficios para la salud. El Aloe Vera es un hidratante natural que ayuda a rejuvenecer la piel y promover su elasticidad. Sus propiedades antiinflamatorias y cicatrizantes lo convierten en un aliado para aliviar quemaduras y irritaciones cutáneas. Además, su gel nutritivo es ideal para fortalecer el cabello y combatir la caspa. ¡Experimenta los múltiples beneficios del Aloe Vera y descubre una belleza y bienestar naturales!",
+        "precio": 150
+    },
+    {
+        "ID": 5,
+        "family": "Suculentas",
+        "nombre": "cola de burro",
+        "vivienda": "Depto",
+        "ubicacion": "Interior",
+        "proposito": "Deco",
+        "img": "https://d2r9epyceweg5n.cloudfront.net/stores/001/164/063/products/burro11-1f0d1ceaaf052e3c6315922564799949-640-0.jpg",
+        "propiedades": "Con sus hojas carnosas en forma de gota, esta planta es una joya para cualquier espacio. Su resistencia y bajo mantenimiento la convierten en la compañera perfecta para aquellos con manos no tan verdes. La cola de burro es conocida por almacenar agua en sus hojas, lo que la hace extremadamente resistente a la sequía. Además, sus tonos verdes y plateados le dan un toque elegante a cualquier entorno. Atrévete a cultivar esta suculenta y descubre una planta cautivadora que robará todas las miradas.",
+        "precio": 270
+    },
+    {
+        "ID": 6,
+        "family": "Suculentas",
+        "nombre": "schlumbergera",
+        "vivienda": [
+            "Depto",
+            "Casa"
+        ],
+        "ubicacion": "Interior",
+        "proposito": "Deco",
+        "img": "data:image/jpeg;base64,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",
+        "propiedades": "Descubre la belleza natural de la Schlumbergera. Esta planta exótica cautiva con sus coloridas flores en forma de cactus, que florecen en invierno. Su resistencia y fácil cuidado la convierten en la opción perfecta para adornar tu hogar. Disfruta de sus propiedades decorativas y su capacidad para purificar el aire. ¡Lleva la magia de la Schlumbergera a tu espacio y deleita tus sentidos con su encanto único!",
+        "precio": 180
+    },
+    {
+        "ID": 103,
+        "family": "Árboles",
+        "nombre": "eucalipto",
+        "vivienda": "Casa",
+        "ubicacion": "Exterior",
+        "proposito": "Deco",
+        "img": "https://www.argentina.gob.ar/sites/default/files/clonan-plantines-2.jpg",
+        "propiedades": "Un árbol emblemático con características únicas. Su tronco recto y su corteza decorativa le otorgan un aspecto imponente. El Eucalipto es conocido por su rápido crecimiento y su capacidad para adaptarse a diversos climas. Sus hojas aromáticas liberan un aroma refrescante y sus aceites esenciales tienen propiedades medicinales. Además, el Eucalipto contribuye a la purificación del aire ya la conservación del agua del suelo. Ya sea en jardines o en plantaciones forestales, el Eucalipto brinda belleza y beneficios ambientales. ¡Explora la grandeza del Eucalipto en tu entorno!",
+        "precio": 350
+    },
+    {
+        "ID": 104,
+        "family": "Árboles",
+        "nombre": "palo borracho",
+        "vivienda": "Casa",
+        "ubicacion": "Exterior",
+        "proposito": "Deco",
+        "img": "https://voluntariosambientales.org/wp-content/uploads/2022/07/WhatsApp-Image-2022-07-29-at-4.59.54-PM.jpeg",
+        "propiedades": " Con su tronco robusto y ramas espinosas, este árbol exótico destaca en cualquier paisaje. El Palo Borracho es resistente a condiciones adversas y requiere poco mantenimiento. Su florecimiento abundante con hermosas flores blancas o rosadas añade un toque de elegancia y atrae a polinizadores. Además, su tronco suave al tacto y su forma peculiar lo convierten en una pieza única en tu jardín. Disfruta de su sombra y admira la belleza natural del Palo Borracho en todo su esplendor.",
+        "precio": 700
+    },
+    {
+        "ID": 105,
+        "family": "Árboles",
+        "nombre": "ceibo",
+        "vivienda": "Casa",
+        "ubicacion": "Exterior",
+        "proposito": "Deco",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_687212-MLA48429070703_122021-O.webp",
+        "propiedades": "El ceibo flor nacional de Argentina. Con su follaje frondoso y flores vistosas, este árbol tropical cautiva con su encanto natural. El Caibo es conocido por su resistencia y adaptabilidad a climas cálidos y húmedos. Sus raíces fuertes y extensas previenen la erosión del suelo y brindan estabilidad. Además, sus frutos comestibles y nutritivos son un regalo de la naturaleza. Disfruta de su sombra refrescante y de la música que producen las hojas cuando las acaricia el viento.",
+        "precio": 640
+    },
+    {
+        "ID": 106,
+        "family": "Árboles",
+        "nombre": "cerezo",
+        "vivienda": "Casa",
+        "ubicacion": "Exterior",
+        "proposito": "Huerta",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_670216-MLM50940521400_072022-O.webp",
+        "propiedades": " Con su tronco esbelto y hojas verde intenso, este árbol impresiona por su presencia en cualquier entorno. El Ceezo es conocido por su resistencia y adaptabilidad a distintos climas y suelos. Su follaje denso brinda sombra y frescura en los días calurosos. Además, sus flores delicadas atraen una variedad de polinizadores. Este árbol de rápido crecimiento se convierte en un punto focal en jardines y parques. Embellece tu espacio al aire libre con la majestuosidad del Ceezo y disfruta de su belleza durante todo el año.",
+        "precio": 380
+    },
+    {
+        "ID": 107,
+        "family": "Árboles",
+        "nombre": "limonero",
+        "vivienda": "Casa",
+        "ubicacion": "Exterior",
+        "proposito": "Huerta",
+        "img": "https://t1.uc.ltmcdn.com/es/posts/8/0/1/cuantas_horas_de_luz_necesita_un_limonero_49108_3_600.jpg",
+        "propiedades": "Descubre el encanto del Limonero. Con sus brillantes frutos amarillos y fragantes flores blancas, este árbol cítrico te deleitará con su belleza y sabor. El Limonero es apreciado por su resistencia y capacidad de adaptación a diferentes climas. Además de su valor ornamental, sus limones son una fuente de vitamina C y versatilidad culinaria. Cultivar un Limonero en tu jardín te brinda frescura y bienestar. Disfruta de su aroma embriagador y cosecha tus propios limones. ¡Agrega una pizca de frescura cítrica a tu vida con el Limonero!",
+        "precio": 440
+    },
+    {
+        "ID": 108,
+        "family": "Árboles",
+        "nombre": "naranjo",
+        "vivienda": "Casa",
+        "ubicacion": "Exterior",
+        "proposito": "Huerta",
+        "img": "https://images-eu.ssl-images-amazon.com/images/I/51W7xdUCoGL._AC_UL600_SR600,600_.jpg",
+        "propiedades": "Con su exquisito aroma y frutos jugosos, este árbol ofrece una experiencia cítrica inigualable. El Naranjo es conocido por su fácil cultivo y adaptabilidad a diferentes climas. Sus naranjas llenas de vitamina C son un deleite para el paladar y se utilizan en una amplia gama de recetas. Además, su follaje verde brillante brinda sombra y frescura en los días calurosos. Disfruta de la belleza y los beneficios de cultivar tus propias naranjas. Embellece tu jardín y deleita tus sentidos con el encanto del Naranjo, un árbol que aporta alegría y vitalidad a tu entorno.",
+        "precio": 450
+    },
+    {
+        "ID": 109,
+        "family": "Árboles",
+        "nombre": "manzano",
+        "vivienda": "Casa",
+        "ubicacion": "Exterior",
+        "proposito": "Huerta",
+        "img": "https://huerto-en-casa.com/wp-content/uploads/2022/05/manzano-en-maceta.jpg",
+        "propiedades": "Con su elegante ramaje y flores fragantes, este árbol ofrece una experiencia encantadora en cualquier jardín. El Manzano es conocido por su facilidad de cultivo y su capacidad de adaptación a diferentes climas. Sus sabrosas manzanas, ricas en nutrientes y antioxidantes, son un regalo para el paladar y se utilizan en una variedad de platos dulces y salados. Además, su follaje verde exuberante brinda sombra y frescura en los días soleados. Disfruta de la belleza y los beneficios de cultivar tus propias manzanas. Embellece tu entorno con el encanto del Manzano y cosecha la recompensa de tu esfuerzo y cuidado.",
+        "precio": 520
+    },
+    {
+        "ID": 110,
+        "family": "Árboles",
+        "nombre": "nogal",
+        "vivienda": "Casa",
+        "ubicacion": "Exterior",
+        "proposito": "Huerta",
+        "img": "https://elcucodigital.com/archivo/wp-content/uploads/2017/09/plantines-de-nogales.jpg",
+        "propiedades": "Con su imponente porte y frutos nutricionales, este árbol agrega un toque de grandeza a cualquier paisaje. El Nogal es conocido por su longevidad y su resistencia a diferentes climas. Sus nueces, ricas en ácidos grasos saludables, son un verdadero tesoro culinario y nutritivo. Además, su follaje frondoso proporciona sombra y frescura en los días calurosos. Disfruta de la belleza y los beneficios de cultivar tus propios nogales. Embellece tu entorno con el encanto del Nogal y aprovecha su generosidad a lo largo de los años.",
+        "precio": 610
+    },
+    {
+        "ID": 111,
+        "family": "Árboles",
+        "nombre": "aguacatero",
+        "vivienda": "Casa",
+        "ubicacion": "Exterior",
+        "proposito": "Huerta",
+        "img": "https://www.reyesgutierrez.com/wp-content/uploads/2021/05/planta-aguacate.jpg",
+        "propiedades": "Descubre la exquisitez y la versatilidad del Aguacatero. Con su fruto cremoso y suculento, este árbol es una joya en cualquier jardín. El Aguacatero es conocido por su fácil cultivo y su adaptabilidad a diferentes climas. Sus aguacates, ricos en grasas saludables y nutrientes esenciales, son el ingrediente perfecto para una alimentación equilibrada. Además, su follaje perenne brinda sombra y privacidad. Disfruta de la satisfacción de cosechar tus propios aguacates y deleita tu paladar con su sabor inigualable.",
+        "precio": 990
+    },
+    {
+        "ID": 200,
+        "family": "Huerta",
+        "nombre": "tomate",
+        "vivienda": "Casa",
+        "ubicacion": "Exterior",
+        "proposito": "Huerta",
+        "img": "https://static.wixstatic.com/media/508225_6f5d0850792438eafbdf488c39519437.jpg/v1/fill/w_490,h_420,al_c,lg_1,q_80,enc_auto/508225_6f5d0850792438eafbdf488c39519437.jpg",
+        "propiedades": "Con su fácil cultivo y abundantes beneficios, los tomates son una elección perfecta para cualquier jardinero. Disfruta de su sabor fresco y jugoso en ensaladas, salsas y platos caseros. Los tomates son ricos en antioxidantes y vitaminas, promoviendo una alimentación saludable. Además, su cultivo en macetas o jardines es accesible para todos. Embárcate en la experiencia gratificante de cultivar tus propios tomates y disfruta de la frescura y calidad que solo una cosecha casera puede ofrecer.",
+        "precio": 250
+    },
+    {
+        "ID": 201,
+        "family": "Huerta",
+        "nombre": "zanahoria",
+        "vivienda": [
+            "Depto",
+            "Casa"
+        ],
+        "ubicacion": "Exterior",
+        "proposito": "Huerta",
+        "img": "https://blogagricultor.site/wp-content/uploads/2021/02/Cultivo-de-zanahorias-en-macetas-macetas.jpg",
+        "propiedades": "Descubre la alegría de cultivar tus propias zanahorias. Con su sabor dulce y crujiente, estas raíces nutritivas son un tesoro en el huerto. Las zanahorias son fáciles de cultivar y se adaptan a diversos climas. Su alto contenido de vitamina A y antioxidantes promueve la salud ocular y el sistema inmunológico. Además, su versatilidad en la cocina permite su uso en una amplia variedad de platos. Cultivar zanahorias en macetas o en el jardín es una actividad gratificante para toda la familia. Embárcate en esta aventura y disfruta de la satisfacción de cosechar tus propias zanahorias frescas y deliciosas.",
+        "precio": 180
+    },
+    {
+        "ID": 202,
+        "family": "Huerta",
+        "nombre": "zapallo",
+        "vivienda": "Casa",
+        "ubicacion": "Exterior",
+        "proposito": "Huerta",
+        "img": "https://www.lahuertinadetoni.es/wp-content/uploads/2019/03/Sembrar-Calabazas-En-casa-1024x768.jpg",
+        "propiedades": "Con sus enormes hojas y frutos vibrantes, esta planta es un tesoro en cualquier huerto. El zapallo es fácil de cultivar y se adapta a diversos climas. Sus frutos son versátiles en la cocina, ideales para sopas, guisos y postres. Además, su pulpa es rica en fibra y antioxidantes, promoviendo una digestión saludable. Cultivar zapallos en el jardín es una experiencia gratificante para disfrutar en familia. Embárcate en esta aventura y disfruta de la belleza y los beneficios de tener tu propio huerto de zapallos frescos y deliciosos.",
+        "precio": 150
+    },
+    {
+        "ID": 203,
+        "family": "Huerta",
+        "nombre": "papa",
+        "vivienda": "Casa",
+        "ubicacion": "Exterior",
+        "proposito": "Huerta",
+        "img": "https://www.ecoportal.net/wp-content/uploads/2021/08/3.jpg",
+        "propiedades": "Descubre la versatilidad y la satisfacción de cultivar tus propias papas. Con su sabor único y su variedad de usos culinarios, las papas son una elección imprescindible en cualquier huerto. Son una excelente fuente de carbohidratos, fibra y vitamina C. Disfruta de su versatilidad en platos como puré, papas fritas y guisos. Cultivar papas en tu jardín es una experiencia gratificante que te conecta con la naturaleza y te brinda alimentos frescos y nutritivos. Embárcate en esta aventura y disfruta de la satisfacción de cosechar tus propias papas caseras.",
+        "precio": 130
+    },
+    {
+        "ID": 204,
+        "family": "Huerta",
+        "nombre": "cebolla",
+        "vivienda": [
+            "Depto",
+            "Casa"
+        ],
+        "ubicacion": "Exterior",
+        "proposito": "Huerta",
+        "img": "https://www.ecojardinmagico.com/wp-content/uploads/2021/05/Cebolla-de-verdeo-cultivar-en-maceta.jpg",
+        "propiedades": "Con su sabor distintivo y sus múltiples beneficios, las cebollas son un ingrediente esencial en la cocina. Fáciles de cultivar y adaptables a diferentes climas, las cebollas ofrecen una cosecha abundante. Son ricas en antioxidantes y compuestos antiinflamatorios, promoviendo la salud en general. Además, su versatilidad en la cocina las convierte en un ingrediente imprescindible en numerosos platos. Cultivar cebollas en tu jardín te brinda alimentos frescos y de calidad, además de la satisfacción de cosechar tus propias cebollas caseras.",
+        "precio": 200
+    },
+    {
+        "ID": 205,
+        "family": "Huerta",
+        "nombre": "tomate cherry",
+        "vivienda": "Casa",
+        "ubicacion": "Interior",
+        "proposito": "Huerta",
+        "img": "https://www.amba24.ar/u/fotografias/m/2023/3/17/f850x638-102884_180373_5050.jpg",
+        "propiedades": "Con su tamaño pequeño y su sabor explosivo, son una joya en cualquier huerto o jardín. Los tomates cherry son fáciles de cultivar, ideales para principiantes. Su rápido crecimiento y alta producción te brindan una cosecha abundante. Cultivar tomates cherry te permite disfrutar de su frescura y calidad en cada bocado. Embárcate en esta experiencia y descubre la satisfacción de cosechar tus propios tomates cherry, llenando tu cocina con su sabor y frescura.",
+        "precio": 270
+    },
+    {
+        "ID": 206,
+        "family": "Huerta",
+        "nombre": "frutilla",
+        "vivienda": [
+            "Depto",
+            "Casa"
+        ],
+        "ubicacion": "Interior",
+        "proposito": "Huerta",
+        "img": "https://mejorconsalud.as.com/wp-content/uploads/2022/04/maceta-fresas.jpg",
+        "propiedades": "Con su sabor jugoso y su aroma irresistible, las frutillas son una delicia en cualquier huerto o jardín. Son fáciles de cultivar y se adaptan a espacios reducidos. Disfruta de su frescura en postres, batidos y ensaladas. Además, son una excelente fuente de vitamina C y antioxidantes. Cultivar frutillas te brinda la oportunidad de disfrutar de su sabor fresco y natural. Embárcate en esta aventura y disfruta de la satisfacción de cosechar tus propias frutillas, deleitándote con su dulzura y la belleza que aportan a tus plato.",
+        "precio": 230
+    },
+    {
+        "ID": 207,
+        "family": "Huerta",
+        "nombre": "rúcula",
+        "vivienda": [
+            "Depto",
+            "Casa"
+        ],
+        "ubicacion": "Interior",
+        "proposito": "Huerta",
+        "img": "https://store.plantabo.com/cdn/shop/products/Rucula-1-V3.jpg?v=1689003484",
+        "propiedades": "Descubre la frescura y el sabor único de cultivar tu propia rúcula. Con su distintivo sabor a nuez y su textura crujiente, la rúcula es una adición perfecta a ensaladas y platos culinarios. Es fácil de cultivar en macetas o en el jardín, incluso en espacios reducidos. Además de su delicioso sabor, la rúcula es rica en vitaminas, minerales y antioxidantes. Cultivar rúcula te permite disfrutar de hojas frescas y nutritivas en cualquier momento. Embárcate en esta experiencia y disfruta de la satisfacción de cosechar tu propia rúcula, añadiendo un toque de frescura y vitalidad a tus comidas.",
+        "precio": 140
+    },
+    {
+        "ID": 800,
+        "family": "accesorios",
+        "nombre": "palita",
+        "vivienda": [
+            "Depto",
+            "Casa"
+        ],
+        "ubicacion": "Exterior",
+        "proposito": "Huerta",
+        "img": "https://hqvcdn3.azureedge.net/qs_h=461&mh=2000&mw=2000&w=738&crop=1&ver=20230402T093441&hcsh=87CEC0D7D348EA80030EBD3B42EFBF06/_$$_/media/aprimo/gardena/combisystem/photos/action/wh-23xxxx/wh-239056.jpeg",
+        "propiedades": "La palita para jardinería es una herramienta imprescindible. Con su diseño ergonómico y mango antideslizante, brinda comodidad y control al cavar y transplantar. Fabricada con acero resistente, su borde afilado facilita la excavación en suelos compactos. Compacta y liviana, es perfecta para espacios reducidos. ¡Un aliado confiable para cualquier entusiasta de la jardinería!",
+        "precio": 850
+    },
+    {
+        "ID": 801,
+        "family": "accesorios",
+        "nombre": "maceta deco",
+        "vivienda": [
+            "Depto",
+            "Casa"
+        ],
+        "ubicacion": "Exterior",
+        "proposito": "Huerta",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/817/334/products/tripodebaseroble2011-b6d5a29137ea3344ef16543691787355-640-0.jpg",
+        "propiedades": "Añade un toque de elegancia a tu espacio con nuestra maceta blanca de 15 cm de diámetro. Su diseño minimalista y acabado brillante la convierten en la opción perfecta para realzar la belleza de tus plantas. Con 20 cm de altura, es ideal para decorar cualquier rincón de tu hogar u oficina. ¡Crea un ambiente fresco y sofisticado con nuestra maceta blanca de calidad excepcional!",
+        "precio": 250
+    },
+    {
+        "ID": 802,
+        "family": "accesorios",
+        "nombre": "guantes",
+        "vivienda": [
+            "Depto",
+            "Casa"
+        ],
+        "ubicacion": "Exterior",
+        "proposito": "Huerta",
+        "img": "https://d22fxaf9t8d39k.cloudfront.net/fd0874a8d610d1b230808e7cf298ab43f6de6aaca787b0ffc7abd6db614e9cef27439.png",
+        "propiedades": "Protege tus manos mientras disfrutas de la jardinería con nuestros guantes especializados. Fabricados con materiales resistentes y transpirables, brindan un ajuste cómodo y permiten un agarre firme. Su diseño duradero y palmas reforzadas los hacen ideales para trabajos pesados. Mantén tus manos seguras y libres de suciedad con nuestros guantes de jardinería de calidad premium. ¡La elección perfecta para jardineros apasionados!",
+        "precio": 550
+    },
+    {
+        "ID": 803,
+        "family": "accesorios",
+        "nombre": "regador",
+        "vivienda": [
+            "Depto",
+            "Casa"
+        ],
+        "ubicacion": "Exterior",
+        "proposito": "Huerta",
+        "img": "https://images.e-deala.com/400143/001.jpg",
+        "propiedades": "Agrega un toque de color y diversión a tu jardín con nuestro regador plástico con flor de regado. Su diseño único y vibrante hará que regar tus plantas sea una experiencia alegre. Fabricado con materiales duraderos y de calidad, garantiza un riego preciso y eficiente. ¡Haz que tus plantas florezcan con estilo y alegría con nuestro regador con flor de regado!",
+        "precio": 1200
+    },
+    {
+        "ID": 804,
+        "family": "accesorios",
+        "nombre": "sustrato",
+        "vivienda": [
+            "Depto",
+            "Casa"
+        ],
+        "ubicacion": "Exterior",
+        "proposito": "Huerta",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_611051-MLA43525074194_092020-O.webp",
+        "propiedades": "Nuestro sustrato para plantas es la clave para un crecimiento saludable y exuberante. Formulado con ingredientes de alta calidad, proporciona una base nutritiva y equilibrada para tus plantas. Mejora la retención de agua y promueve una adecuada circulación de aire en las raíces. ¡Dale a tus plantas el sustrato que se merecen y disfruta de un jardín floreciente!",
+        "precio": 600
+    }
+]

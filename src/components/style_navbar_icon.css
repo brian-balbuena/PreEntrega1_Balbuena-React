@@ -18,3 +18,7 @@
 .navbar-up-title {
     font-size: 2.5rem;
 }
+
+.navbar-bottom {
+    border-bottom: solid #E1E1E1 1px;
+}
