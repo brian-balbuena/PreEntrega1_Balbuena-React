@@ -1,20 +1,17 @@
 import { useParams } from "react-router-dom";
 import useData from "../database/useData";
-import product from "../database/data.json";
-import { CircularProgress, Typography } from "@mui/material";
+import {  CircularProgress, Typography } from "@mui/material";
 import ProductCard from "./product_card";
 
 const ItemCategoryContainer = () => {
 
     const { family } = useParams();
-    const { data, loading } = useData(product);
+    const { data, loading } = useData('products');
 
 
     if (loading) return (<div style={{ marginTop: "100px", display: "flex", justifyContent: "center" }}> <CircularProgress color="success" thickness={5.5} /> </div>);
 
     const familyCategory = data.filter(category => category.family === family);
-
-    console.log("esto", familyCategory)
 
     return (
         <>
@@ -24,7 +21,8 @@ const ItemCategoryContainer = () => {
                 
                 {
                     familyCategory.map((element, index) => {
-                        return <ProductCard key={index} product={element} />
+                        return <ProductCard key={index} product={element} /> 
+                        
                     })
                 }
             </div>

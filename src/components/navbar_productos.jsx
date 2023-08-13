@@ -4,14 +4,13 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import { NavLink } from 'react-router-dom';
 import './style_navMenu.css';
-import product from "../database/data.json";
 import useData from '../database/useData';
 import { CircularProgress } from '@mui/material';
 
 
 
 const BasicMenu = () => {
-    const { data, loading } = useData(product);
+    const { data, loading } = useData('products');
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
     const handleClick = (event) => {

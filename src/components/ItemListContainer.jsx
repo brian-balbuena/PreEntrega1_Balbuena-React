@@ -1,5 +1,4 @@
 import { CircularProgress, Typography } from "@mui/material";
-import product from "../database/data.json";
 import { useEffect, useState } from "react";
 import ProductCard from "./product_card";
 import useData from "../database/useData";
@@ -8,7 +7,7 @@ import useData from "../database/useData";
 
 const ItemListContainer = () => {
     // uso el useData para simular el llamado a la api 
-    const { data, error, loading } = useData(product);
+    const { data, error, loading } = useData('products');
 
     // creo un spinner para el tiempo de carga ,simulando una llamada a la api 
     if (loading) return (<div style={{ marginTop: "100px", display: "flex", justifyContent: "center" }}> <CircularProgress color="success" thickness={5.5} /> </div>);

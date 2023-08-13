@@ -6,17 +6,19 @@ import Title from "./components/title";
 import ItemListContainer from './components/ItemListContainer';
 import ItemCategoryContainer from './components/ItemCategoryContainer';
 import ItemDetailContainer from './components/ItemDetailContainer';
+import { CartProvider } from './context/CartContext';
 
 
 function App() {
 
   return (
     // <Container />
-    <>
-      <Router>
+    
+    <CartProvider>
+    <Router>
       <NavBar />
       < Title />
-      
+
         <Routes>
 
           <Route exact path='/' element={ < ItemListContainer />} /> 
@@ -26,9 +28,10 @@ function App() {
 
         </Routes>
 
-
       </Router>
-    </>
+    </CartProvider>
+    
+    
   );
 }
 
